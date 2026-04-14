@@ -1,0 +1,26 @@
+column,description
+date,Calendar date
+sales,Net daily sales revenue in dollars
+orders,Number of completed orders
+units_sold,Total items sold
+returns,Items returned
+website_visits,Daily site visits
+conversion_rate,Orders divided by visits
+avg_order_value,Average revenue per order
+price,Effective selling price index / representative item price
+base_price,Underlying pre-discount price
+discount_pct,Discount percent applied
+marketing_spend,Daily marketing spend in dollars
+promotion,Whether a promotion is running (0/1)
+is_holiday,Whether the day is a holiday/event (0/1)
+holiday_name,Holiday or event name if present
+day_of_week,Day name
+day_of_week_num,Day of week encoded 0=Mon ... 6=Sun
+month,Month number
+day_of_month,Day number within month
+week_of_year,ISO week number
+is_weekend,Weekend flag (0/1)
+sales_lag_1,Previous day's sales
+sales_lag_7,Sales from 7 days ago
+sales_rolling_mean_7,Mean sales over previous 7 days
+sales_rolling_mean_30,Mean sales over previous 30 days
